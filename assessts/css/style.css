@@ -99,3 +99,16 @@ border: none;
     background-color: white;
     box-shadow: 12px 4px 8px 10px gray;
 }
+.footer{
+    border: 10 solid black;
+    background: url("/images/footer.png") repeat 0 0;
+    height: 500px;
+    width: 1300px;
+}
+.iconContainer{
+    width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: whitesmoke;
+text-align: center;
+}
