@@ -39,61 +39,71 @@ line-height: normal;
 }
 .bgText{
     color: #3D2514;
-    font-family: Inter;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
 background-color: #FFC045;
-padding:15px;
-margin-left: 35%;
-margin-right: 35%;
+padding:5px;
+margin-left: 38%;
+margin-right: 38%;
 }
 .ProductSectionHeading{
     color: #3D2514;
-font-family: Inter;
-font-size: 50px;
+text-transform: uppercase;
+font-size: 80px;
 font-style: normal;
-font-weight: 400;
+font-weight: 900;
 line-height: normal;
+text-shadow: 1px 1px #eee789;
 }
 .ProductSectionText{
     color: #3D2514;
 text-align: center;
-font-family: Montserrat;
 font-size: 16.667px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin: 10px 132px;
 }
 .productHeading{
     color: #3D2514;
-font-family: Inter;
-font-size: 37.5px;
+font-size: 27px;
 font-style: normal;
-font-weight: 400;
+font-weight: 900;
 line-height: normal;
+text-shadow: 1px 1px #3a0c0c;
 }
 .productText{
     color: #3D2514;
     text-align: center;
-    font-family: Montserrat;
     font-size: 16.667px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 .orderBtn{
+    text-transform: uppercase;
     background-color: #BF2222;
-    width: 195px;
-height: 57px;
-color: #FFF;
-font-family: Inter;
+    width: 180px;
+height: 50px;
+color: #FFFFFF;
 font-size: 16.667px;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
 border: none;
+cursor: pointer;
+}.orderBtn:hover{
+    background-color: #ec1010;
+    color: whitesmoke;
+    font-size: 18px;
+
+}
+
+.zoom:hover{
+    transform: scale(1.1);
 }
 .upcoming{
     background-color: white;
