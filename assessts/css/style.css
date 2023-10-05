@@ -22,12 +22,14 @@ font-weight: 700;
 line-height: normal;
 }
 .overlaySmallText{
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
 }
 .overlayBigText{
-    font-size: 41.667px;
+    font-size: 25px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 @media (min-width: 768px)
 {
@@ -39,7 +41,7 @@ line-height: normal;
 }
 .bgText{
     color: #3D2514;
-    font-size: 25px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -47,8 +49,8 @@ line-height: normal;
     text-transform: uppercase;
 background-color: #FFC045;
 padding:5px;
-margin-left: 38%;
-margin-right: 38%;
+margin-left: 35%;
+margin-right: 35%;
 }
 .ProductSectionHeading{
     color: #3D2514;
@@ -110,15 +112,43 @@ cursor: pointer;
     box-shadow: 12px 4px 8px 10px gray;
 }
 .footer{
-    border: 10 solid black;
     background: url("/images/footer.png") repeat 0 0;
-    height: 500px;
-    width: 1300px;
+    margin:20px auto;
+    padding-top:80px;
+    padding-left:30px;
+    padding-bottom: 20px;
+}.smallTxt{
+    font-size: 15px;
+    text-align: left;
+    padding-right: 22%;
 }
 .iconContainer{
-    width: 20px;
-height: 20px;
+    width: 25px;
+height: 25px;
 border-radius: 50%;
-background-color: whitesmoke;
+background-color: white;
 text-align: center;
+padding: 2px;
+cursor: pointer;
+
+}
+.iconContainer:hover{
+    transform: scale(1.1);
+}.text-black{
+    color: black;
+}.insta:hover{
+    color:violet;
+    background-color: whitesmoke;
+}
+.fb:hover{
+    color:blue;
+    background-color: whitesmoke;
+}
+.twit:hover{
+    color:skyblue;
+    background-color: whitesmoke;
+}
+.wtsapp:hover{
+    color:rgb(20, 219, 20);
+    background-color: whitesmoke;
 }

@@ -34,5 +34,27 @@ margin: 10px 20px;
 }
 .col-xs-12{
     margin-top:30px;
+}.zoom{
+   margin-left:3rem;
+}
+.overlaySmallText{
+    font-size: 10px;
+}
+.overlayBigText{
+    font-size: 15px;
+}
+.footer{
+    background: url("/images/footer.png") repeat 0 0;
+    margin:5px auto;
+    padding-top:5px;
+    padding-left:20px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}.smallTxt{
+    font-size: 15px;
+    text-align: left;
+    padding-right:1px;
+}.socialXS{
+    margin-left: 13px;
 }
  }
