@@ -1,154 +1,16 @@
 body{
-    color: #3d2514 !important;
-    font-family: "Montserrat";
-    background-color: #FFFFFF;
-    padding: 0;
-    margin: 0;
+    font-family: 'DM Serif Display', serif;
 }
-.bgYellow{
- background-color: #FFC045;
-}
+
 .brown{
     color: #3d2514 !important;;
 }
-.nav1{
-    justify-content: space-between;
-    flex-direction: row;
-}
 .navRightText{
 font-size: 16.667px;
-font-style: normal;
+
 font-weight: 700;
-line-height: normal;
-}
-.overlaySmallText{
-    font-size: 15px;
-    font-weight: 800;
-    text-transform: uppercase;
-}
-.overlayBigText{
-    font-size: 25px;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-@media (min-width: 768px)
-{
-.col-md-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 100%;
-}
-}
-.bgText{
-    color: #3D2514;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-    text-transform: uppercase;
-background-color: #FFC045;
-padding:5px;
-margin-left: 35%;
-margin-right: 35%;
-}
-.ProductSectionHeading{
-    color: #3D2514;
-text-transform: uppercase;
-font-size: 80px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-shadow: 1px 1px #eee789;
-}
-.ProductSectionText{
-    color: #3D2514;
-text-align: center;
-font-size: 16.667px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin: 10px 132px;
-}
-.productHeading{
-    color: #3D2514;
-font-size: 27px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-shadow: 1px 1px #3a0c0c;
-}
-.productText{
-    color: #3D2514;
-    text-align: center;
-    font-size: 16.667px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.orderBtn{
-    text-transform: uppercase;
-    background-color: #BF2222;
-    width: 180px;
-height: 50px;
-color: #FFFFFF;
-font-size: 16.667px;
-font-weight: 400;
-line-height: normal;
-border: none;
-cursor: pointer;
-}.orderBtn:hover{
-    background-color: #ec1010;
-    color: whitesmoke;
-    font-size: 18px;
 
 }
 
-.zoom:hover{
-    transform: scale(1.1);
-}
-.upcoming{
-    background-color: white;
-    box-shadow: 12px 4px 8px 10px gray;
-}
-.footer{
-    background: url("/images/footer.png") repeat 0 0;
-    margin:20px auto;
-    padding-top:80px;
-    padding-left:30px;
-    padding-bottom: 20px;
-}.smallTxt{
-    font-size: 15px;
-    text-align: left;
-    padding-right: 22%;
-}
-.iconContainer{
-    width: 25px;
-height: 25px;
-border-radius: 50%;
-background-color: white;
-text-align: center;
-padding: 2px;
-cursor: pointer;
 
-}
-.iconContainer:hover{
-    transform: scale(1.1);
-}.text-black{
-    color: black;
-}.insta:hover{
-    color:violet;
-    background-color: whitesmoke;
-}
-.fb:hover{
-    color:blue;
-    background-color: whitesmoke;
-}
-.twit:hover{
-    color:skyblue;
-    background-color: whitesmoke;
-}
-.wtsapp:hover{
-    color:rgb(20, 219, 20);
-    background-color: whitesmoke;
-}
+

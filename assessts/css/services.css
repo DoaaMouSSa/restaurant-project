@@ -1,0 +1,38 @@
+.overlaySmallText{
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.overlayBigText{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+@media (max-width: 768px)
+{
+.overlaySmallText{
+    font-size: 10px;
+}
+.overlayBigText{
+    font-size: 15px;
+}.mt-2-xl{
+    margin-top: 25px;
+}
+}
+@media (min-width: 2000px)
+ {
+    .container {
+        max-width: 2300px;
+    }
+    .overlaySmallText{
+        font-size: 40px;
+    }
+    .overlayBigText{
+        font-size: 60px;
+    }
+    .mt-xs-2{
+        margin-top: 2px;
+    }
+    
+} 
+

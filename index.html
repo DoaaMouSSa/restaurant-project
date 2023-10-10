@@ -8,58 +8,98 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
         integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inconsolata:wght@300;400&family=Montserrat&family=Phudu&family=Roboto+Mono&family=Roboto:wght@300&family=Rubik:wght@300&family=Tajawal:wght@300&family=Titillium+Web:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assessts/css/style.css" />
-    <link rel="stylesheet" href="assessts/css/mediaQuery.css" />
+    <link rel="stylesheet" href="assessts/css/header.css"/>
+    <link rel="stylesheet" href="assessts/css/banner.css"/>
+    <link rel="stylesheet" href="assessts/css/services.css"/>
+    <link rel="stylesheet" href="assessts/css/products.css"/>
+    <link rel="stylesheet" href="assessts/css/upcomming.css"/>
+    <link rel="stylesheet" href="assessts/css/form.css"/>
+    <link rel="stylesheet" href="assessts/css/footer.css"/>
 </head>
 
 <body>
-   <!-- -start header-->
-    <!-- <header>
-
-        <nav class="navbar navbar-expand-lg nav-menu bgYellow p-4">
-            <div class="justify-content-start text-uppercase font-weight-bold">
-                <i class="fa-solid fa-burger"></i>
-                <a href="#" class="navbar-brand text-uppercase font-weight-bold brown">burger house</a>
+    <!--Main Navigation-->
+<header class="bgYellow p-3">
+    <nav class="navbar navbar-expand-lg nav-menu pb-md-0 mb-md-0">
+        <div class="justify-content-start text-uppercase font-weight-bold">
+            <i class="fa-solid fa-burger"></i>
+            <a href="#" class="navbar-brand text-uppercase font-weight-bold brown">burger house</a>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold">
+            <i class="fa-solid fa-shipping-fast"></i>&nbsp;&nbsp;
+            <p class="navRightText mb-0">Express Delivery +1 234 567 890</p>
+        </div>
+    </nav>
+    
+    <nav class="navbar navbar-expand nav-menu pt-md-0 mt-md-0 pb-md-0">
+        <div class="container">
+            
+            <div>
             </div>
-            <div class="navbar-collapse justify-content-end text-uppercase font-weight-bold">
-                <i class="fa-solid fa-shipping-fast"></i>
-                <p class="navRightText mb-0">Express Delivery +1 234 567 890</p>
 
-
+            <div class="text-right">
+                <div class="collapse navbar-collapse" id="navbarMarkup">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link text-bold">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-black-50 text-bold">menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-black-50 text-bold">our story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-black-50 text-bold">contact us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
-        </nav>
-    start banner-->
-
-        <!-- <div class="banner bgYellow">
+        </div>
+    </nav>
+  </header>
+   <!-- -end header-->
+  
+    <!--start banner-->
+     <div class="banner bgYellow p-md-5">
             <div class="row">
-                <div class="col-md-6">
-                    <p class="banner-heading display-4">
+                <div class="col-md-7 col-xs-12 p-3">
+                    <div class="dottedBorder">
+                    <p class="banner-box mb-0 p-2">
                         It is a good time for the great taste of burgers
-                    </p>
-                    <h1 class="banner-heading display-4">
+                    </p></div>
+                    <h1 class="banner-heading mt-1">
                         Burger
                     </h1>
-                    <h2 class="banner-heading display-4">
+                    <h2 class="banner-sub-heading mt-1">
                         Week
                     </h2>
                 </div>
-                <div class="col-md-6">
-                    <img src="images/Burger_Imageb.png" />
+                <div class="col-md-5 col-xs-12 p-2">
+                    <img src="images/banner/bannerImg.png" width="85%" class="zoom"/>
+                    <div class="discountCircle">
+                        <div class="discountborder">
+
+                       <p class="discountText"> <span class="font-25">$5</span>.49<br>ONLY</p>
+                    </div>
+                </div>
                 </div>
             </div>
         </div> 
         
     </header> 
-    end heade-->
-    <section class="p-3">
+    <!--end banner-->
+    <!--start section of advertiesment-->
+    <section class="p-3 services">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-xs-12">
                     <div class="card border-0 " width="100%">
-                        <img class="card-img-top" src="images/Burger Image1.png">
+                        <img class="card-img-top" src="images/services/Burger_Image1.png">
 
                         <div class="card-img-overlay card-inverse">
                             <h5 class="text-stroke text-white overlaySmallText">
@@ -71,44 +111,46 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xs-12">
-                    <div class="row flex-column">
-                        <div class="col-md-6 mb-4">
-                            <div class="card border-0" width="100%">
-                                <img class="card-img-top" src="images/Image.png">
-
-                                <div class="card-img-overlay card-inverse">
-                                    <h5 class="text-stroke text-white overlaySmallText">
-                                        Try it today
-                                    </h5>
-                                    <h4 class="text-stroke text-white overlayBigText">
-                                        More fun <br>more taste
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mt-2">
-                            <div class="card border-0" width="100%">
-                                <img class="card-img-top" src="images/Image3.png">
-
-                                <div class="card-img-overlay card-inverse">
-                                    <h5 class="text-stroke text-white overlaySmallText">
-                                        Try it today
-                                    </h5>
-                                    <h4 class="text-stroke text-white overlayBigText">
-                                        Fresh & Chili
-                                    </h4>
-                                </div>
+              <div class="col-md-6 col-xs-12">
+                <div class="row mt-1">
+                    <div class="col-md-12">
+                        <div class="card border-0 " width="100%">
+                            <img class="card-img-top" src="images/services/Image.png">
+    
+                            <div class="card-img-overlay card-inverse">
+                                <h5 class="text-stroke text-white overlaySmallText">
+                                    Try it today
+                                </h5>
+                                <h4 class="text-stroke text-white overlayBigText">
+                                    More fun <br>more taste
+                                </h4>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="row mt-lg-4 mt-2-xl">
+                    <div class="col-md-12">
+                        <div class="card border-0 " width="100%">
+                            <img class="card-img-top" src="images/services/Image3.png">
+    
+                            <div class="card-img-overlay card-inverse">
+                                <h5 class="text-stroke text-white overlaySmallText">
+                                    Try it today
+                                </h5>
+                                <h4 class="text-stroke text-white overlayBigText">
+                                    Fresh & Chili
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
             </div>
         </div>
     </section>
    <!-- end section of advertiesment -->
     <!--start section of products-->
-    <section class="p-lg-5 p-xs-4">
+    <section class="p-lg-5 p-xs-4 m-5">
         <p class="bgText">Always Tasty Burger</p>
         <h1 class="text-center ProductSectionHeading">Choose & Enjoy</h1>
         <p class="text-center ProductSectionText">Lorem ipsum dolor sit amet,
@@ -118,28 +160,28 @@
             facilisis. </p>
         <div class="container mt-5">
             <div class="row">
-                <div class="col-md-4 col-xs-12 align-items-center">
+                <div class="col-lg-4 col-md-4 col-xs-12 align-items-center">
 
-                    <img src="images/Burger1.png" class="zoom ml-lg-3" width="70%"/>
-                    <img src="images/Shadow.png" width="80%" class="mt-1"/>
+                    <img src="images/products/Burger1.png" class="zoom ml-lg-3" width="70%"/>
+                    <img src="images/products/Shadow.png" width="80%" class="mt-1"/>
                     <p class="text-center productHeading">Lorem ipsum dolor</p>
                     <p class="productText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                     <div class="text-center">
                         <button class="orderBtn">Order Now</button>
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-12 align-items-center middleProductContainer">
-                    <img src="images/Burger2.png" class="zoom ml-lg-5 ml-lg-5" width="62.5%"/>
-                    <img src="images/Shadow.png" width="80%" class="mt-1"/>
+                <div class="col-lg-4 col-md-4 col-xs-12 align-items-center middleProductContainer">
+                    <img src="images/products/Burger2.png" class="zoom ml-lg-5 ml-lg-5" width="62.5%"/>
+                    <img src="images/products/Shadow.png" width="80%" class="mt-1"/>
                     <p class="text-center productHeading">Lorem ipsum dolor</p>
                     <p class="productText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                     <div class="text-center">
                         <button class="orderBtn">Order Now</button>
                     </div>
                 </div>
-                <div class="col-md-4 col-xs-12 align-items-center">
-                    <img src="images/Burger3.png" class="zoom  ml-lg-3" width="70%"/>
-                    <img src="images/Shadow.png" width="80%" class="mt-1"/>
+                <div class="col-lg-4 col-md-4 col-xs-12 align-items-center">
+                    <img src="images/products/Burger3.png" class="zoom  ml-lg-3" width="70%"/>
+                    <img src="images/products/Shadow.png" width="80%" class="mt-1"/>
                     <p class="text-center productHeading">Lorem ipsum dolor</p>
                     <p class="productText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
                     <div class="text-center">
@@ -150,90 +192,113 @@
         </div>
     </section>
     <!--end section of products-->
-    <!--start section of upcoming
-    <section class="mt-5">
-        <div class="container">
+    <!--start section of upcoming-->
+    <section class="m-5">
+            <div class="carousel slide" data-ride="carousel" id="customer-carousel" data-interval="1000">
             <div class="row upcoming">
-                <div class="col-md-6 text-uppercase">
-                    <p>Discover</p>
-                    <p>Upcoming Events</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                <div class="col-md-6 col-xs-12 text-uppercase">
+                    <p class="upcommingSecHeading">Discover</p>
+                    <p class="upcommingSecSubHeading">Upcoming Events</p>
+                    <p class="upcomingP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
                         maecenas accumsan lacus vel facilisis. </p>
+                        <ol class="carousel-indicators justify-content-md-start ms-2">
+                            <li data-target="#customer-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#customer-carousel" data-slide-to="1"></li>
+                            <li data-target="#customer-carousel" data-slide-to="2"></li>
+                        </ol> 
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active text-center">
+                            <img src="images/carasoul/Burger_Imageb.png" class="fit" width="100%" height="100%" />                              
+                        </div>
+                        <div class="carousel-item text-center">
+                            <img src="images/carasoul/burger_carsoul2.jpg"  class="fit" width="100%" height="100%"/>                              
+                        </div>
+                        <div class="carousel-item text-center">
+                            <img src="images/carasoul/burger_carsoul4.jpg"  class="fit" width="100%" height="100%"/>                              
+                        </div>
+                    </div>     
+                  </div>
+                 </div>
+            </div>
+    </section>
+   <!-- end section of upcoming-->
+    <!--start form-->
+    <section class="frm">
+        <!-- <form> -->
+                <div class="row ml-0 mr-0 pl-0 pr-0">
+                    <div class="col-md-2 ml-0 mr-0 pl-0 pr-0 col-xs-4">
+                        <img src="images/form/Burger9.png" width="100%" class="violtaingImg"/>
+                    </div>
+                    <div class="col-md-8 col-xs-8 ml-0 mr-0 pl-0 pr-0 pt-3">
+                        <h1 class="text-center text-capitalize frmHeading">RESERVATION</h1>
+                        <H2 class="text-center text-capitalize ProductSectionHeading">BOOK YOUR TABLE</H2>
+                    </div>
+                </div>
+                <div class="row ml-0 mr-0 pl-0 pr-0">
+                    <div class="col-md-2 ml-0 mr-0 pl-0 pr-0 col-xs-12">
+                        <img src="images/form/Bottle.png" width="100%" class="bottleHideInxs"/>
+                    </div>
+                    <div class="col-md-8 ml-0 mr-0 pl-0 pr-0 formVerticalCenter">
+                        <div class="row mt-3">
+                            <div class="col-md-6 col-xs-12">
+                                <input class="form-control" type="text" placeholder="NAME" name="name" id="name" onkeydown="clearNameMsgs()" />
+                                <p class="text-danger mt-1 mb-1" id="warningName"></p>
+                                <p class="text-success mt-1 mb-1" id="validName"></p>
 
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <input class="form-control" type="email" placeholder="EMAIL" name="email" id="email" onkeydown="clearEmailMsgs()"/>
+                                <p class="text-danger mt-1 mb-1" id="warningEmail"></p>
+                                <p class="text-success mt-1 mb-1" id="validEmail"></p>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-6 col-xs-12">
+                                <input class="form-control" type="date" placeholder="DATE" name="date" id="date" onchange="clearDateMsgs()"/>
+                                <p class="text-success mt-1 mb-1" id="validDate"></p>
+                                <p class="text-danger mt-1 mb-1" id="warningDate"></p>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <input class="form-control" type="time" placeholder="Time" name="time" id="time" onchange="clearTimeMsgs()"/>
+                                <p class="text-success mt-1 mb-1" id="validTime"></p>
+                                <p class="text-danger mt-1 mb-1" id="warningTime"></p>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-md-6 col-xs-12">
+                                <input class="form-control" type="number" placeholder="PEOPLE" min="1" max="10" name="number" id="number" value="1" onchange="clearNumberMsgs()" onkeydown="clearNumberMsgs()"/>
+                                <p class="text-success mt-1 mb-1" id="validNumber"></p>
+                                <p class="text-danger mt-1 mb-1" id="warningNumber"></p>
+                            </div>
+                            <div class="col-md-6 col-xs-12">
+                                <button class="btn btn-danger btn-block submitBtn" onclick="submit();">FIND A TABLE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ml-0 mr-0 pl-0 pr-0">
+                        <img src="images/form/Image4.png" width="100%" class="dishImg"/>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <img src="images/Burger_Imageb.png" width="100%">
-                </div>
-            </div>
-        </div>
+        <!-- </form> -->
     </section>
-    end section of upcoming-->
-    <!--start form
-    <section class="frm mt-5">
-        <form>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2">
-                        <img src="images/Burger9.png" width="100%" />
-                    </div>
-                    <div class="col-md-8">
-                        <h1 class="text-center text-capitalize">RESERVATION</h1>
-                        <H2 class="text-center text-capitalize">BOOK YOUR TABLE</H2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2">
-                        <img src="images/Bottle.png" width="100%" />
-                    </div>
-                    <div class="col-md-8">
-                        <div class="row mt-2">
-                            <div class="col-md-6">
-                                <input class="form-control" type="text" placeholder="NAME" />
-                            </div>
-                            <div class="col-md-6">
-                                <input class="form-control" type="email" placeholder="EMAIL" />
-                            </div>
-                        </div>
-                        <div class="row mt-2">
-                            <div class="col-md-6">
-                                <input class="form-control" type="date" placeholder="DATE" />
-                            </div>
-                            <div class="col-md-6">
-                                <input class="form-control" type="time" placeholder="Time" />
-                            </div>
-                        </div>
-                        <div class="row mt-2">
-                            <div class="col-md-6">
-                                <input class="form-control" type="number" placeholder="PEOPLE" min="1" max="10" />
-                            </div>
-                            <div class="col-md-6">
-                                <button class="btn btn-danger btn-block">FIND A TABLE</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <img src="images/Image4.png" width="100%" />
-                    </div>
-                </div>
-            </div>
-        </form>
-    </section>
-    end form-->
+    <!--end form-->
         <div class="container footer p-md-5">
-            <div class="row pl-2 mb-lg-4 mb-xl-0">
-                <div class="col-md-12 col-xs-12">
+            <div class="row pl-2 mb-lg-4 mb-xl-0 mb-md-2">
+                <div class="col-lg-12 col-md-12 col-xs-12">
                 <i class="fa-solid fa-burger text-white text-lg-start h1"></i>&nbsp;
                 <h1 class="text-capitalize text-white d-inline">burger house</h1>
             </div>
         </div>
-            <div class="row mb-5">
-                <div class="col-md-7 col-xs-12 pr-5">
+            <div class="row mb-5 mt-md-5">
+                <div class="col-lg-7 col-md-7 col-xs-12 pr-5">
                     <p class="text-white smallTxt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                         do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
                         gravida. Risus commodo viver ra maecenas accumsan lacus vel facilisis.</p>
                 </div>
-                <div class="col-md-5 col-xs-12">
+                <div class="col-lg-5 col-md-5 col-xs-12">
                     <div>
                     <i class="fa-solid fa-location-dot text-white"></i>&nbsp;
                     <p class="text-uppercase text-white d-inline">Main Road, Building Name, Country</p>
@@ -245,10 +310,10 @@
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-md-10 col-xs-12">
+                <div class="col-lg-10 col-md-10 col-xs-12">
                     <small class="text-white">© Company Name 2020. All rights reserved.</small>
                 </div>
-                <div class="col-md-2 col-xs-12 socialXS">
+                <div class="col-lg-2 col-md-2 col-xs-12 socialXS">
                     <div class="row">
                         <div class="iconContainer mr-2">
                             <i class="fab fa-instagram text-black insta"></i>
@@ -266,61 +331,12 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <!--start nav item
-<nav class="navbar navbar-expand-lg nav-menu bgYellow">
-    <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold bgYellow" id="myNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link m-2 menu-item nav-active text-black-50">Home</a>
-                    </li>
-            
-                    <li class="nav-item">
-                        <a href="#" class="nav-link m-2 menu-item text-black-50">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link m-2 menu-item text-black-50">Our Story</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link m-2 menu-item text-black-50">Contact Us</a>
-                    </li>
-            
-                </ul>
-            
-            </div>
-        </nav>
-
-                   <i class="fa-solid fa-users"></i>      -->
-    <!-- <i class="fa-solid fa-user-tie"></i>  
-                <i class="fa-solid fa-clock"></i>
-                <i class="fa fa-calendar"></i>
-                <i class="fab fa-facebook-f text-info"></i>
-                <i class="fab fa-instagram text-danger"></i>
-                <i class="fab fa-whatsapp text-success"></i>
-                <i class="fab fa-twitter text-primary"></i> -->
     <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
         integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
         integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
     <script src="/assessts/js/script.js"></script>

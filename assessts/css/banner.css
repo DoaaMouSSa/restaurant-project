@@ -1,0 +1,65 @@
+.dottedBorder{
+    border: 2px dashed brown;
+    color: #3D2514;
+    margin-left: 5px;
+    width: max-content;
+    align-self: left;
+
+}
+.banner-box{
+    color: #3D2514;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}.banner-heading{
+    color: #3D2514;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 900;
+    text-shadow: 2px 1px whitesmoke;
+    text-align: left;
+    margin-left: 5px;
+}    
+.banner-sub-heading{
+    color: #3D2514;
+    text-transform: uppercase;
+    font-size: 60px; 
+    font-weight: 900;
+    text-shadow: 2px 1px whitesmoke;
+    text-align: left;
+}.discountCircle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #BF2222;
+    position:absolute;
+    bottom: 10px;
+    left: 30px;
+    padding: 20px;
+    text-align: center;
+}.discountborder{
+    width: 80px;
+    height: 80px;
+    position:absolute;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 50%;
+    border: 1px dashed whitesmoke;
+    padding: 10px;
+}
+.discountText{
+    color: whitesmoke;
+    font-weight: 600;
+}.font-25{
+    font-size: 25px;
+}
+@media (max-width: 576px) {
+.banner-box{
+    font-size: 10px;
+}.banner-heading{
+    font-size: 50px;
+}    
+.banner-sub-heading{
+    font-size: 30px;
+}
+}

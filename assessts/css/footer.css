@@ -1,0 +1,67 @@
+.footer{
+    background: url("/images/footer/footer.png") repeat 0 0;
+    margin:20px auto;
+    padding-top:80px;
+    padding-left:30px;
+    padding-bottom: 20px;
+}.smallTxt{
+    font-size: 15px;
+    text-align: left;
+    padding-right: 22%;
+}
+.iconContainer{
+    width: 25px;
+height: 25px;
+border-radius: 50%;
+background-color: white;
+text-align: center;
+padding: 2px;
+cursor: pointer;
+
+}
+.iconContainer:hover{
+    transform: scale(1.1);
+}.text-black{
+    color: black;
+}.insta:hover{
+    color:violet;
+    background-color: whitesmoke;
+}
+.fb:hover{
+    color:blue;
+    background-color: whitesmoke;
+}
+.twit:hover{
+    color:skyblue;
+    background-color: whitesmoke;
+}
+.wtsapp:hover{
+    color:rgb(20, 219, 20);
+    background-color: whitesmoke;
+}@media (max-width: 576px) {
+
+    .col-xs-12{
+        margin-right:20px;
+margin-left:10px;
+    }.zoom{
+       margin-left:3rem;
+    }
+    
+    .footer{
+        margin:5px auto;
+        padding-top:5px;
+        padding-left:20px;
+        padding-bottom: 5px;
+        margin-bottom: 0;
+    }.smallTxt{
+        font-size: 15px;
+        text-align: left;
+        padding-right:1px;
+    }.socialXS{
+        margin-left: 13px;
+    }
+    .formVerticalCenter {
+         margin:10px;
+    }
+}
+
